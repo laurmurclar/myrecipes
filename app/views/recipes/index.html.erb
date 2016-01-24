@@ -12,7 +12,7 @@
     </div>
 
     <div class="col-lg-8 well">
-      <h1><%= link_to recipe.name, " " %></h1>
+      <h3><%= link_to recipe.name, recipe_path(recipe.id) %></h3>
       <p><%= recipe.summary %></p>
       <p>
         <span class='quiet'>
