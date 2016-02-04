@@ -12,6 +12,7 @@
 
     <div class="col-lg-6 well">
       <h3><%= link_to recipe.name, recipe_path(recipe.id) %></h3>
+      <%= render 'likes', rcp: recipe %>
       <p><%= recipe.summary %></p>
       <p>
         <span class='quiet'>

@@ -12,6 +12,7 @@
         Steps:
       </strong></p>
       <p><%= simple_format(@recipe.description) %></p>
+      <%= render 'likes', rcp: @recipe %>
     </div>
   </div>
 
